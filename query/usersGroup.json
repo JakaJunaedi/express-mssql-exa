@@ -1,0 +1,6 @@
+{
+    "getAllUserGroup":"SELECT TOP (1000) * FROM [dbo].[SYSTEM_USER_GROUP]",
+    "addNewUserGroup":"INSERT INTO [dbo].[SYSTEM_USER_GROUP] () VALUES ()",
+    "deleteUserGroup":"DELETE FROM [dbo].[SYSTEM_USER_GROUP] WHERE USER_GROUP_ID = @USER_GROUP_ID",
+    "updataUserGroupDetails":"UPDATE [dbo].[SYSTEM_USER_GROUP] SET USER_GROUP_ID = @USER_GROUP_ID WHERE USER_GROUP_ID = USER_GROUP_ID"
+}
